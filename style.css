@@ -65,3 +65,28 @@ body{
         column-gap: 3rem;
     }
 }
+
+.btn{
+    display: none;
+    text-decoration: none;
+    background: #ff5722;
+    border-radius: 8px;
+    color: #fff;
+    padding: 7px 40px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    max-width: 80px;
+    height: 32px;
+}
+
+@media screen and (min-width :991px){
+    .btn{
+        display: grid;
+        align-items: center;        
+    }
+
+    .nav-center{
+        grid-template-columns: 2fr auto 1fr;
+    }
+}
