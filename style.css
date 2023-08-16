@@ -42,6 +42,28 @@ body{
     cursor: pointer;
 }
 
+.btn{
+    display: none;
+    text-decoration: none;
+    background: #ff5722;
+    border-radius: 8px;
+    color: #fff;
+    padding: 7px 40px;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    max-width: 80px;
+    height: 32px;
+}
+
+.banner{
+    background-image: url("./banner.webp");
+    height: 508px; 
+    background-size: cover;
+    background-position: fixed;
+    
+}
+
 @media screen and (min-width :767px){
     .bi-list{
         display: none;
@@ -64,20 +86,6 @@ body{
         align-items: center;
         column-gap: 3rem;
     }
-}
-
-.btn{
-    display: none;
-    text-decoration: none;
-    background: #ff5722;
-    border-radius: 8px;
-    color: #fff;
-    padding: 7px 40px;
-    width: 100%;
-    font-size: 13px;
-    text-align: center;
-    max-width: 80px;
-    height: 32px;
 }
 
 @media screen and (min-width :991px){
