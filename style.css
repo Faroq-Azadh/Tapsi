@@ -57,11 +57,87 @@ body{
 }
 
 .banner{
-    background-image: url("./banner.webp");
+    background-image: url("./banner1.jpg");
     height: 508px; 
     background-size: cover;
     background-position: fixed;
-    
+    position: relative;
+    display: grid;
+    justify-items: center;
+}
+
+.bannerinfo{
+    position: absolute;
+    background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 16px;
+    width: 270px;
+
+}
+
+.title{
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.sub-title{
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    font-weight: 300;
+    margin-bottom:40px;
+}
+
+.download-btn{
+    background: #fff;
+    margin: 10PX;
+    border-radius: 12PX;
+    height: 52px;
+    text-align: center;
+    display: flex;
+}
+
+.join-btn{
+    background: transparent;
+    margin: 10PX;
+    border: 3px solid #fff;
+    border-radius: 12PX;
+    height: 52px;
+    text-align: center;
+    display: flex;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.link1{
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+    align-self: center;
+    margin-right: 18px;
+}
+
+.bi-arrow-down-short{
+    align-self: center;
+}
+
+.bi-car-front{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #fff;
+    align-self: center;
+}
+
+.bi-arrow-down-short1{
+    color: #fff;
+    align-self: center;
 }
 
 @media screen and (min-width :767px){
