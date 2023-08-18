@@ -162,6 +162,53 @@ body{
         align-items: center;
         column-gap: 3rem;
     }
+
+    .banner{
+        display: block;
+        background-image: url(./banner.webp);
+        height: 550px;
+        background-size: cover;
+        background-position: fixed;
+        position: relative;
+    }
+
+    .bannerinfo{
+        margin-top: 70px;
+        margin-right: 10%;
+        width: 528px;
+        position: fixed;
+    }
+
+    .bannerinfo h1{
+        font-size: 50px;
+    }
+
+    .bannerinfo h2{
+        font-size: 24px;
+    }
+
+    .res1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .res2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .res2 .dl{
+        margin-right: 140px;
+    }
+
+    .join-btn{
+        width: 240px;
+    }
+    .res2 .mo {
+        margin-right: -120px;
+    }
+
+
 }
 
 @media screen and (min-width :991px){
