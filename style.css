@@ -58,7 +58,7 @@ body{
 
 .banner{
     background-image: url("./banner1.jpg");
-    height: 508px; 
+    height: 490px; 
     background-size: cover;
     background-position: fixed;
     position: relative;
@@ -70,7 +70,7 @@ body{
     position: absolute;
     background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
     border-radius: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 16px;
     width: 270px;
 
@@ -140,6 +140,10 @@ body{
     align-self: center;
 }
 
+.phoneb{
+    display: none;
+}
+
 @media screen and (min-width :767px){
     .bi-list{
         display: none;
@@ -165,8 +169,8 @@ body{
 
     .banner{
         display: block;
-        background-image: url(./banner2.jpg);
-        height: 550px;
+        background-image: url(./banner.webp);
+        height: 508px;
         background-size: cover;
         background-position: fixed;
         position: relative;
@@ -176,7 +180,7 @@ body{
         margin-top: 70px;
         margin-right: 10%;
         width: 528px;
-        position: fixed;
+        height: 370px;
     }
 
     .bannerinfo h1{
@@ -185,6 +189,11 @@ body{
 
     .bannerinfo h2{
         font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .download-btn , .join-btn{
+        margin: 6px;
     }
 
     .res1{
@@ -219,5 +228,14 @@ body{
 
     .nav-center{
         grid-template-columns: 2fr auto 1fr;
+    }
+
+    .phoneb{
+        display: block;
+        position: absolute;
+        height: 132%;
+        z-index: 3;
+        left: 10%;
+        top: 20%;
     }
 }
