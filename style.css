@@ -31,13 +31,25 @@ body{
 .svg{
     cursor: pointer;
 }
-.svg:hover{
-    .t{
-        color: #ff5722;
-    }
-    .l{
-        color: #000;
-    }
+.t{
+    fill: #000;
+}
+.dot{
+    fill: #000;
+}
+.l{
+    fill: #ff5722;
+}
+.svg:hover>g>.t{
+    
+        fill: #ff5722;
+
+}
+.svg:hover>g>.dot{
+    fill: #ff5722;
+}
+.svg:hover>g>.l{
+    fill: black;
 }
 .nav-links{
     display: none;
@@ -244,13 +256,17 @@ body{
 @media screen and (min-width :991px){
     .btn{
         display: grid;
-        align-items: center;        
+        align-items: center;   
+        margin-right: -20px;  
     }
 
     .nav-center{
         grid-template-columns: 2fr auto 1fr;
     }
 
+}
+
+@media screen and (min-width :1030px){
     .phoneb{
         display: block;
         position: absolute;
