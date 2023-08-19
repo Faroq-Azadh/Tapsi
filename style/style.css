@@ -1,5 +1,5 @@
 @font-face {
-    src: url(/Sans\ a4fran3.ttf);
+    src: url(../Sans\ a4fran3.ttf);
     font-family: vazir;
 
 }
@@ -88,7 +88,7 @@ body{
     transform: scale(0.98);
 }
 .banner{
-    background-image: url("/img/banner1.jpg");
+    background-image: url("../img/banner1.jpg");
     height: 490px; 
     background-size: cover;
     background-position: fixed;
@@ -202,7 +202,7 @@ body{
 
     .banner{
         display: block;
-        background-image: url(/img/banner.webp);
+        background-image: url(../img/banner.webp);
         height: 508px;
         background-size: cover;
         background-position: fixed;
