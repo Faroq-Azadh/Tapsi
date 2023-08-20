@@ -15,7 +15,7 @@ body{
     padding: 0px 10%;
     position: fixed;
     right: 0;
-    z-index: 3;
+    z-index: 10;
 }
 .nav-center {
     width: 100%;
@@ -177,6 +177,65 @@ body{
     display: none;
 }
 
+.service{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.img-service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 0;
+    max-width: 100%;
+    overflow: auto;
+    cursor: pointer;
+}
+
+.i-s{
+    margin: 0 10px;
+}
+
+.text{
+    font-size: 12px;
+    opacity: 1;
+    text-align: center;
+    margin-top: 0;
+    color: #5e5e5e;
+}
+
+#icon{
+    opacity: 0.4;
+}
+
+.i-s:hover > #icon{
+    opacity: 1;
+}
+
+.info-title{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-info{
+    font-size: 13px;
+    color: #333;
+    line-height: 32px;text-align: justify;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.line{
+    max-width: 80%;
+    color: #969696;
+    font-size: 5px;
+}
+
+.img-responsive{
+    display: none;
+}
 @media screen and (min-width :767px){
     .bi-list{
         display: none;
@@ -251,6 +310,47 @@ body{
         margin-right: -123px;
     }
 
+    .img-service{
+        justify-content: start;
+        margin-top: 70px;
+        
+    }
+
+    .Tservice{
+        font-size: 30px;
+        font-weight: 800;
+        padding-top: 100px;
+    }
+
+    #icon{
+        width: 90px;
+    }
+
+    .i-s{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .service{
+        padding-right: 80px;
+    }
+    .service-info{
+        display: flex;
+    }
+    .img-responsive{
+        display: block;
+        width: 275px;
+        height: 171px;
+        padding-top: 60px;
+        padding-right: 20px;
+    }
+    
+    .info-title{
+        font-size: 24px;
+    }
+
+    .Infos{
+        width: 50%;
+    }
 
 }
 
