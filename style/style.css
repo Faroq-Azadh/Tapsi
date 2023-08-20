@@ -180,10 +180,10 @@ body{
 .service{
     padding-top: 30px;
     padding-right: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     padding-left: 20px;
     border-bottom: 1px solid #dbdbdb;
-    margin: 0 15px;
+    margin: 0 7%;
 }
 
 .img-service{
@@ -241,14 +241,21 @@ body{
 }
 
 .buy{
-    padding: 10% 15px;
+    padding: 4% 15px;
+    padding-top: 0;
 }
 
 .i-mac{
-    padding: 40px 55px;
+    padding-top: 100px;
     width: 90%;
-    padding-bottom: 0;
+    padding-right: 55px;
     padding-left: 0;
+}
+
+.macbook{
+    width: 90%;
+    padding: 0 20px;
+    padding-top: 150px;
 }
 .buy-info{
     padding-right: 10px;
@@ -277,6 +284,19 @@ body{
     background-color: #ff5722;
     padding: 15px;
     border-radius: 12px;
+}
+
+.buinglink{
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5722;
+    padding: 15px 40px;
+    border-radius: 12px;
+}
+
+.two{
+    margin-bottom: 35px;
 }
 @media screen and (min-width :767px){
     .bi-list{
@@ -396,10 +416,37 @@ body{
         font-size: 16px;
     }
 
+    .buy-info-title{
+        font-size: 30px;
+    }
+
+    .buy-info-text , .infolink-text , .signinglink{
+        font-size: 15px;
+    }
     .part1{
+        padding: 6% 10%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+    }
+
+    .part2{
+        padding: 6% 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .i-mac{
+        order: 2;
+        margin: auto;
+        padding-top: 0;
+        padding-right: 100px;
+    }
+
+    .macbook{
+        margin: auto;
+        padding-left: 100px;
+        padding-right: 0;
+        padding-top: 0;
     }
 
 }
