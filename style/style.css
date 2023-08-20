@@ -181,6 +181,7 @@ body{
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
+    padding-left: 80px;
 }
 
 .img-service{
@@ -375,5 +376,33 @@ body{
         z-index: 3;
         left: 10%;
         top: 20%;
+    }
+
+    .img-service{
+        justify-content: space-around;
+        margin-top: 70px;
+        margin-top: 50px;
+    }
+    
+    .Tservice{
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+
+    .Infos{
+        margin-right: 50px;
+        width: 45%;
+    }
+
+    .text-info{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .img-responsive{
+        display: block;
+        width: 547px;
+        height: 328px;
+        padding-top: 20px;
+        padding-right: 80px;
     }
 }
