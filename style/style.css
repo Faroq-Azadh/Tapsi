@@ -312,7 +312,7 @@ body{
     }
 
     .img-service{
-        justify-content: start;
+        justify-content: space-between;
         margin-top: 70px;
         
     }
@@ -335,12 +335,13 @@ body{
         padding-right: 80px;
     }
     .service-info{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+
     .img-responsive{
         display: block;
-        width: 275px;
-        height: 171px;
+        width: 100%;
         padding-top: 60px;
         padding-right: 20px;
     }
@@ -349,8 +350,8 @@ body{
         font-size: 24px;
     }
 
-    .Infos{
-        width: 50%;
+    .text-info{
+        font-size: 16px;
     }
 
 }
@@ -391,7 +392,6 @@ body{
 
     .Infos{
         margin-right: 50px;
-        width: 45%;
     }
 
     .text-info{
@@ -399,10 +399,8 @@ body{
         font-size: 16px;
     }
     .img-responsive{
-        display: block;
-        width: 547px;
-        height: 328px;
         padding-top: 20px;
         padding-right: 80px;
+        width: 80%;
     }
 }
