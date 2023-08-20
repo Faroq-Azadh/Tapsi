@@ -183,7 +183,6 @@ body{
     padding-bottom: 100px;
     padding-left: 20px;
     border-bottom: 1px solid #dbdbdb;
-    margin: 0 7%;
 }
 
 .img-service{
@@ -255,11 +254,13 @@ body{
 .macbook{
     width: 90%;
     padding: 0 20px;
-    padding-top: 150px;
+    padding-top: 50px;
 }
+
 .buy-info{
     padding-right: 10px;
     padding-left: 10px;
+    margin-bottom: 80px;
 }
 .buy-info-text{
     font-size: 13px;
@@ -286,7 +287,7 @@ body{
     border-radius: 12px;
 }
 
-.buinglink{
+.buyinglink{
     font-size: 13px;
     text-decoration: none;
     color: #fff;
@@ -297,6 +298,34 @@ body{
 
 .two{
     margin-bottom: 35px;
+}
+
+.parallax{
+    
+    background: transparent;
+    padding: 10px;
+}
+
+.parallax-element{
+    display: flex;
+    flex-direction: column;
+}
+
+.parallax-element:hover .unvisit{
+    display: block;
+}
+
+.visit{
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.unvisit{
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    display: none;
 }
 @media screen and (min-width :767px){
     .bi-list{
@@ -395,6 +424,7 @@ body{
     .service{
         padding-right: 80px;
         padding-top: 80px;
+        padding-left: 80px;
     }
     .service-info{
         display: grid;
@@ -414,6 +444,7 @@ body{
 
     .text-info{
         font-size: 16px;
+        
     }
 
     .buy-info-title{
@@ -448,6 +479,7 @@ body{
         padding-right: 0;
         padding-top: 0;
     }
+
 
 }
 
