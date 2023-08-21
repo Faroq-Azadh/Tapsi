@@ -560,23 +560,29 @@ body{
         font-size: larger;
     }
 
-    .parallax-element:hover .visit{
+    .parallax-element:hover .visit {
         margin-top: -40px;
+    }
+
+    .blast:hover .visit {
+        margin-top: -77px;
     }
     
     .Advantages{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
         padding: 8%;
     }
     
     .driver{
-        width: 85%;
+        width: 100%;
         order: 2;
         margin-right: 10%;
     }
 
+    .ad-info{
+        width: 90%;
+    }
     .ad-title{
         font-size: 30px;
         margin-top: 0;
@@ -658,5 +664,9 @@ body{
     .parallax-element:hover .unvisit{
         margin-top: 40px;
         font-size: 14px;
+    }
+
+    .blast:hover .visit {
+        margin-top: -40px;
     }
 }
