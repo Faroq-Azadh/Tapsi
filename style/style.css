@@ -306,10 +306,6 @@ body{
     padding: 10px;
 }
 
-.parallax-element{
-    display: flex;
-    flex-direction: column;
-}
 
 .parallax-element:hover .unvisit{
     display: block;
@@ -480,6 +476,35 @@ body{
         padding-top: 0;
     }
 
+    .parallax{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 180px;
+    }
+
+    .parallax-element{
+        height:50px;
+        border-left:2px solid white;
+        align-self: center;
+    }
+
+    .last{
+        border-left: none;
+    }
+
+    .visit{
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: top;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .parallax-element:hover .visit{
+        margin-top: -40px;
+    }
+    
+
 }
 
 @media screen and (min-width :991px){
@@ -528,5 +553,10 @@ body{
         padding-top: 20px;
         padding-right: 80px;
         width: 80%;
+    }
+
+    .parallax-element:hover .unvisit{
+        margin-top: 40px;
+        font-size: 14px;
     }
 }
