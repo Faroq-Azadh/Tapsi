@@ -328,6 +328,7 @@ body{
     padding-top: 60px;
     padding-left: 36px;
     padding-right: 36px;
+    padding-bottom: 60px;
 }
 
 .driver{
@@ -383,6 +384,48 @@ body{
     margin-bottom: 0;
 }
 
+.weblog{
+    padding-bottom: 30px;
+}
+.weblog-title{
+    margin-top: -1px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 50px;
+    padding-right: 5%;
+}
+
+.articles{
+    width: 87%;
+    margin: 0 auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-bottom: 35px ;
+    cursor: pointer;
+}
+
+.img-weblog{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.ad-subtitle-art{
+    color: #333;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.web{
+    color:#9b9b9b;
+    line-height: 25px;
+    font-size: small;
+}
+
+.articles:hover{
+    box-shadow: 0 0 15px #e5e5e5;
+}
 @media screen and (min-width :767px){
     .bi-list{
         display: none;
@@ -610,6 +653,12 @@ body{
     .ad-links{
         font-size: 14px;
         text-align: center;
+    }
+
+    .parts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
     }
 }
 
