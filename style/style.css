@@ -837,12 +837,13 @@ body{
     .btn{
         display: block;
         margin: 0 auto;
+        margin-right: -20px;
         padding-top: 10px;
         padding-bottom: 15px;
     }
 
     .nav-center{
-        grid-template-columns: 2fr auto 1fr;
+        grid-template-columns: 3fr auto 1fr;
     }
 
 }
@@ -883,6 +884,8 @@ body{
     }
 
     .parallax-element:hover .unvisit{
+        width: 90%;
+        margin-right: 15px;
         margin-top: 40px;
         font-size: 14px;
     }
