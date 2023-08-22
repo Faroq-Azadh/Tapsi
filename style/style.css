@@ -387,7 +387,7 @@ body{
     background-color: #0065dc;
     padding:15px 10px ;
     border-radius: 12px;
-    width: 200px;
+    width: 40%;
     margin: 15px auto;
     margin-bottom: 0;
 }
@@ -706,7 +706,7 @@ body{
     }
     
     .driver{
-        width: 100%;
+        width: 90%;
         order: 2;
         margin-right: 10%;
         margin-bottom: 0;
