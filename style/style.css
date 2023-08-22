@@ -387,7 +387,7 @@ body{
     background-color: #0065dc;
     padding:15px 10px ;
     border-radius: 12px;
-    width: 40%;
+    width: 50%;
     margin: 15px auto;
     margin-bottom: 0;
 }
@@ -440,7 +440,7 @@ body{
 }
 
 .map{
-    background: url(../img/iransvg.svg) no-repeat;
+    background: url(../img/iran.png) no-repeat;
     display: none;
 }
 
@@ -737,7 +737,7 @@ body{
     }
 
     .ad-links{
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
     }
 
@@ -775,10 +775,9 @@ body{
     .map{
         margin-top: 0;
         margin-bottom: 0;
-        background-size: cover;
+        width: 100%;
         display: block;
-        height: 100%;
-        
+        background-position: fixed;
     }
 
     .map-title{
@@ -788,22 +787,21 @@ body{
     }
 
     .cities-wrapper{
-        display: flex;
-        flex-flow: row wrap;
-        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 40px;
     }
     
     .city{
-        margin: 0 15px;
+        margin: 5px 10px;
     }
     .name , .english-name{
         font-size: 15px;
         font-weight: lighter;
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 0;
     }
 
     .footerpart{
@@ -844,6 +842,20 @@ body{
 
     .nav-center{
         grid-template-columns: 3fr auto 1fr;
+    }
+    .map-title{
+        padding-right: 5%;
+    }
+    .cities-wrapper{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 40px;
+    }
+
+    .name , .english-name{
+        margin-bottom: 0;
     }
 
 }
@@ -894,11 +906,19 @@ body{
         margin-top: -40px;
     }
     .city{
-        margin: 0 25px;
+        margin: 0 20px;
+    }
+
+    .cities-wrapper{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 40px;
     }
 
     .name , .english-name{
-        font-size: 16px;
+        font-size: 17px;
         font-weight: lighter;
         margin-top: 5px;
         margin-bottom: 10px;
