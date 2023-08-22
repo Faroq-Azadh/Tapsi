@@ -385,6 +385,7 @@ body{
 }
 
 .weblog{
+    padding: 60px;
     padding-bottom: 30px;
 }
 .weblog-title{
@@ -392,7 +393,6 @@ body{
     color: #000;
     font-weight: 700;
     padding-bottom: 50px;
-    padding-right: 5%;
 }
 
 .articles{
@@ -656,9 +656,34 @@ body{
     }
 
     .parts{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-around;
+        display: flex;
+    }
+
+    .articles{
+        border-radius: 0;
+        padding: 20px;
+        margin: 0 15px;
+    }
+
+    .web{
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #9b9b9b;
+    display: -webkit-box;
+    font-size: 18px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: justify;
+    }
+
+    .weblog-title{
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .ad-subtitle-art{
+        font-size: 22px;
+        line-height: 32px;
     }
 }
 
