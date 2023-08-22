@@ -431,6 +431,65 @@ body{
     background: url(../img/iransvg.svg) no-repeat;
     display: none;
 }
+
+.footer{
+    padding:30px 15px ;
+}
+
+.footer-title{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer-subtitle{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-link{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align-last: right;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.trust-col{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy-right-mobile{
+    color: #acacac;
+    font-size: small;
+    text-align: center ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.flink{
+    text-decoration: none;
+}
+.bi-telegram , .bi-linkedin , .bi-twitter , .bi-instagram , .bi-facebook{
+    
+    color: #acacac;
+
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-info{
+    color: #acacac;
+    font-size: small;
+    display: none;
+}
 @media screen and (min-width :767px){
     .bi-list{
         display: none;
@@ -724,6 +783,28 @@ body{
         margin-top: 0;
         margin-bottom: 5px;
     }
+
+    .footerpart{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .social-info{
+        display: block;
+        text-align: center;
+    }
+
+    .social-links{
+        justify-content: center;
+    }
+    .flink{
+        margin: 0 10px;
+    }
+
+    #logo-samandehi-container{
+        margin: 0 20px;
+    }
 }
 
 @media screen and (min-width :991px){
@@ -791,5 +872,9 @@ body{
         font-weight: lighter;
         margin-top: 5px;
         margin-bottom: 10px;
+    }
+
+    .footerpart{
+        align-content: center;
     }
 }
