@@ -426,6 +426,11 @@ body{
 .articles:hover{
     box-shadow: 0 0 15px #e5e5e5;
 }
+
+.map{
+    background: url(../img/iransvg.svg) no-repeat;
+    display: none;
+}
 @media screen and (min-width :767px){
     .bi-list{
         display: none;
@@ -685,6 +690,40 @@ body{
         font-size: 22px;
         line-height: 32px;
     }
+
+    .map{
+        margin-top: 0;
+        margin-bottom: 0;
+        background-size: cover;
+        display: block;
+        height: 100%;
+        
+    }
+
+    .map-title{
+        padding: 20px 10%;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+    }
+
+    .cities-wrapper{
+        display: flex;
+        flex-flow: row wrap;
+        height: fit-content;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 40px;
+    }
+    
+    .city{
+        margin: 0 15px;
+    }
+    .name , .english-name{
+        font-size: 15px;
+        font-weight: lighter;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (min-width :991px){
@@ -742,5 +781,15 @@ body{
 
     .blast:hover .visit {
         margin-top: -40px;
+    }
+    .city{
+        margin: 0 25px;
+    }
+
+    .name , .english-name{
+        font-size: 16px;
+        font-weight: lighter;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 }
